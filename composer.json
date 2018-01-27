@@ -25,7 +25,7 @@
     {
         "psr-4":
         {
-            "conveyancer\\framework\\": "src",
+            "conveyancer\\framework\\": "src"
         }
     }
 }
