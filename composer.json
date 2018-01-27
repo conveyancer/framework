@@ -1,0 +1,31 @@
+{
+    "name": "conveyancer/framework",
+    "description": "conveyancer PHP framework class.",
+    "license": "MIT",
+    "homepage": "https://github.com/conveyancer/framework",
+    "keywords": [
+        "conveyancer",
+        "conveyancer framework"
+        "php-frame"
+    ],
+    "authors": [
+    {
+        "name": "Yan Tianzeng",
+        "email": "qinuoyun@qq.com",
+        "homepage": "http://www.ub-u7.com/"
+    }],
+    "require":
+    {
+        "php": ">=5.6.0",
+        "conveyancer/config": "dev-master",
+        "conveyancer/logger": "dev-master",
+        "conveyancer/tool": "dev-master"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "conveyancer\\framework\\": "src",
+        }
+    }
+}
